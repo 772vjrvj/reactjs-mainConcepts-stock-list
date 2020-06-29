@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 1. Hello World
+ Hello World.js
+ 단순 Hello, world! 출력 
 
-## Available Scripts
 
-In the project directory, you can run:
+2. Introducing JSX
+ Embedding Expressions in JSX.js
+ {}안에 함수 넣어서 const 표현
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. Rendering Elements  
+ Updating the Rendered Element.js
+ 시간(시계) 가저오는 것인데 ReactDOM.render을계속 호출 (사용 X)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ Rendering an Element into the DOM.js
+ 단순 Hello, world지만 const 로 
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 4. Components and Props
+ Rendering a Component.js
+ JSX로 함수 호출 props넘기고
 
-### `yarn build`
+ Composing Components.js
+ JSX 함수 호출 해서 여러개 넘기기
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 
+ 5. State and Lifecycle
+ State and Lifecycle1.js
+ 시간(시계) 가저오는 것인데 ReactDOM.render을계속 호출 
+ (사용 X)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ State and Lifecycle2.js
+ 시간(시계) 가저오는 것인데 ReactDOM.render을계속 호출 
+ -컴포넌트화 (사용 X)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Converting a Function to a Class.js
+ 시간(시계) 가저오는 것인데 ReactDOM.render을계속 호출 
+ -컴포넌트화 클래스화 (사용 X) 
 
-### `yarn eject`
+ Adding Local State to a Class.js
+ 시간(시계) 시간 construct 에서 초기화 클래스형식 시간 정지
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ Adding Lifecycle Methods to a Class.js
+ 시간(시계) 시간 construct 에서 초기화 클래스형식 시간 시작 
+ mount update (사용 O)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ The Data Flows Down.js
+ 시간(시계) 시간 construct 에서 초기화 클래스형식 시간 시작 
+ 시간 나오는 곳 컴포넌트로
+ mount update (사용 O) 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  The Data Flows Down2.js
+ 시간(시계) 시간 construct 에서 초기화 클래스형식 시간 시작 
+ 시계 컴포넌트로 시간 나오는 곳 컴포넌트로 
+ mount update (사용 O)  시계 최종 버전
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+ 6. Handling Events (css 사용 O)
+  Handling Events.js
+  함수 this binding Toggle
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ 7. Conditional Rendering
+  Conditional Rendering.js
+  조건 랜더링 
 
-### Code Splitting
+  Element Variables.js
+  조건 랜더링 버튼 누를 때마다 바뀜
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+  Inline If with Logical && Operator.js
+  && 랜더링 
+  
+  Preventing Component from Rendering.js
+  3항 랜더링 
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+  8. Lists and Keys
+  Rendering Multiple Components.js
+  ul li list 기본 props
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  Basic List Component.js
+  ul li list 외부입력 props
