@@ -79,4 +79,12 @@
   ul li list 기본 props
 
   Basic List Component.js
-  ul li list 외부입력 props
+  ul li list 외부입력 props key는 li 내부에서 넣음
+
+  Extracting Components with Keys.js
+  ul li list 외부입력 props key는 li 외부에서 넣음
+
+  Keys Must Only Be Unique Among Siblings.js 
+  key는 같은 태그 안에서 유일해야함
+
+  Embedding map() in JSX.js key 넣기 최종
