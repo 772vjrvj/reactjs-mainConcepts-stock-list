@@ -88,3 +88,50 @@
   key는 같은 태그 안에서 유일해야함
 
   Embedding map() in JSX.js key 넣기 최종
+
+
+  9. Forms
+  Controlled Components.js
+  input textarea 에 state 활용
+  
+  The select Tag.js
+  select사용 
+
+  Handling Multiple Inputs.js
+  여러개 사용 input number, checkBOx
+
+
+  10. Lifting State Up
+  Lifting State Up.js
+  state값 위로 올리기
+
+  Adding a Second Input.js
+  state값 위로 올리기 2개 다른 값도 활용 정적
+
+  LiftingStateUp2
+  state값 위로 올리기 2개 다른 값도 활용 동적
+
+
+  11. Composition vs Inheritance
+  Containment.js
+  props로 자식과 className넘김
+
+  Containment2.js
+  props로 자식들과 className들넘김 많이 넘김1
+
+  Specialization.js
+  props로 자식들과 className들넘김 많이 넘김2
+
+  Specialization2.js
+  props로 자식들과 className들넘김 많이 넘김3
+
+
+  12. Thinking In React
+  Step 2 Build A Static Version in React.js
+  재고 검색 껍데기만
+
+  Step 4 Identify Where Your State Should Live.js
+  state 이용
+  
+  Step 5 Add Inverse Data Flow.js
+  stock 예제 최종버전
